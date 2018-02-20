@@ -25,8 +25,29 @@ For AI need 要把LFW/CASIA/MS CELEB 1M資料庫讀進來，花了很多時間�
 ## Demo image
 ![Demo Image](./casia_part/1.png)
 
-## Ref
+## Ref. VIP to take a look
 #### 1).tensorflow/tflearn import imgDB  method
 https://mrlittlepig.github.io/2017/04/30/tensorflow-for-image-processing/
 #### 2).keras/sklearn  import imgDB  method
 http://blog.csdn.net/nanbei2463776506/article/details/63253467
+#### 3).MS_CELEB_1M 60G, aligned
+http://www.msceleb.org/download/aligned
+http://www.msceleb.org/celeb1m/dataset
+#### 4).CASIA-WebFace.zip 4.1G full版
+https://pan.baidu.com/s/1nvtn6bf
+#### 5).CelebA full版
+https://pan.baidu.com/s/1eSNpdRG
+#### 6).lfw_6000_pair.zip 141M版
+https://pan.baidu.com/s/1bpjJy8n
+#### 7).lfwcrop_color.zip 145M  full版
+http://conradsanderson.id.au/lfwcrop/lfwcrop_color.zip
+#### 8).lfw Drop download
+https://www.dropbox.com/sh/2657rgcts8x45s1/AAA8XCv6OeVjdhlk9WGoe7oha?dl=0
+
+
+## Ref. Face recognization DB introduction
+Ref: https://www.zhihu.com/question/33505655/answer/67492825
+1.     李子青组的 CASIA-WebFace(50万，1万个人). 需申请.Center for Biometrics and Security Research
+2.     微软的MSRA-CFW ( 202792 张, 1583人). 可以直接通过OneDrive下载.MSRA-CFW: Data Set of Celebrity Faces on the Web
+3.     汤晓欧实验室的CelebA(20万+), 标注信息丰富. 现在可以直接从百度网盘下载 Large-scale CelebFaces Attributes (CelebA) Dataset
+4.     LFW (Labeled Faces in the Wild Home) 5,749人, 13,233張http://vis-www.cs.umass.edu/lfw/
