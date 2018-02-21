@@ -1,11 +1,20 @@
 # import_sklearn_imgDB
 
-Import dataset from your img DB to convert to sklearn format
+    Import dataset from your img DB to convert to sklearn format
 
 For AI need 要把LFW/CASIA/MS CELEB 1M資料庫讀進來，花了很多時間在研究，下面是我在github的成果
 我自己寫的可以讀出所有img data set符合sklearn/keras 深度學習套件所需之格式
 即格式為ndarray，由data和target和name 共三部分组成的
 之後只要輸入四個參數 即
+    #at  fetch_people_face_db.py
+    #path: db1="/home/..." , resolution : w:64  h:64 , nPer: 3 persons
+
+    # Call fetch_...(db1,64,...)
+    X, y, z = fetch_people_datasets(db1, 64, 64, 3, False)
+    # return value
+    X = data ,y =target, z=name
+
+
 * folder name, # CASIA/MS_CELEB_1Million
 * w = 64 , #寬
 * h = 64 ,#高
